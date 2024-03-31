@@ -64,7 +64,7 @@ const ImagePixelManipulation = () => {
         );
         const originalData = new Uint8ClampedArray(imageData.data);
 
-        // Piksel manipülasyonlarını uygula (örneğin,zoom out yapma)
+        // Piksel manipülasyonlarını uygula
         //orjinalini al hiçbir manipülasyon yapma.
         // Yeni boyutlara göre kanvası ayarla
         manipulatedCanvas.width = originalCanvas.width;
@@ -99,7 +99,7 @@ const ImagePixelManipulation = () => {
         );
         const manipulatedData = new Uint8ClampedArray(imageData.data);
 
-        // Piksel manipülasyonlarını uygula (örneğin,zoom out yapma)
+        // Piksel manipülasyonlarını uygula
         //orjinalini al hiçbir manipülasyon yapma.
         // Yeni boyutlara göre kanvası ayarla
         originalCanvas.width = manipulatedCanvas.width;
@@ -442,7 +442,7 @@ const ImagePixelManipulation = () => {
         const cropPixelCount = newWidth * newHeight * 4;
         const newPixelData = new Uint8ClampedArray(cropPixelCount);
 
-        // Piksel manipülasyonlarını uygula (örneğin,crop yapma)
+        // Piksel manipülasyonlarını uygula
         let k = 0;
         for (let i = 0; i < canvasHeight; i++) {
             for (let j = 0; j < canvasWidth; j++) {
